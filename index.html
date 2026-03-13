@@ -936,7 +936,7 @@
         // =============================================
         // CONFIGURAÇÃO - Cole a URL do Google Apps Script abaixo
         // =============================================
-        const GOOGLE_SCRIPT_URL = "AKfycbwgBdL90GL9THoUnNUX_lLZXzkEVVIPyQpP6OPr0Xh7s1lgLKPqKPC-edXjWtAnvr11";
+        const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwgBdL90GL9THoUnNUX_lLZXzkEVVIPyQpP6OPr0Xh7s1lgLKPqKPC-edXjWtAnvr11/exec";
         // =============================================
 
         // Toggle benefits list
@@ -1053,7 +1053,7 @@
 
             try {
                 // Send to Google Sheets
-                if (GOOGLE_SCRIPT_URL && GOOGLE_SCRIPT_URL !== "COLE_AQUI_A_URL_DO_GOOGLE_APPS_SCRIPT") {
+                if (GOOGLE_SCRIPT_URL && GOOGLE_SCRIPT_URL !== "https://script.google.com/macros/s/AKfycbwgBdL90GL9THoUnNUX_lLZXzkEVVIPyQpP6OPr0Xh7s1lgLKPqKPC-edXjWtAnvr11/exec") {
                     await fetch(GOOGLE_SCRIPT_URL, {
                         method: 'POST',
                         mode: 'no-cors',
